@@ -1,0 +1,40 @@
+body, html {
+    height: 100%;
+}
+
+.container {
+    max-width: 100%;
+    height: 100%;
+}
+
+.background-img {
+    background-image: url("background.jpeg");
+}
+
+.navbar {
+    display: flex;
+    justify-content: right;
+    position: relative;
+    width: 100%;
+    background-color: whitesmoke;
+    opacity: .6;
+    text-align: center;
+}
+
+.navbar a {
+    color: mediumslateblue;
+    padding: 0 18px;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color: whitesmoke;
+    opacity: .6;
+    bottom: 0;
+}
+
+.col-4, .col-8, a {
+    /* border: solid black 1px; */
+}
